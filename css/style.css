@@ -1,0 +1,112 @@
+* {
+    font-family: Roboto, sans-serif;
+
+}
+.body_wrapper {
+    background-color: #EEEFF1;
+}
+.wrapper {
+    width: 1009px;
+    margin: 0 auto;
+}
+.header__nav {
+    padding-top: 80px;
+}
+.header__nav ul {
+    display: flex;
+    gap: 42px;
+    list-style: none;
+    padding-left: 0;
+}
+.header__nav_item a {
+    text-decoration: none;
+    color: black;
+    font-weight: 400;
+    font-size: 16px;
+}
+.title__content {
+    margin-top: 165px;
+    max-width: 540px;
+    padding-bottom: 160px;
+}
+.title__main {
+    font-size: 48px;
+    font-weight: 550;
+    margin-bottom: 60px;
+}
+.title__description {
+    text-align: left;
+    font-size: 16px;
+    font-weight: 100;
+}
+.description--modified {
+    margin-bottom: 75px;
+}
+.title__button {
+    background-color: #34547A;
+    padding: 20px 40px 20px 40px;
+    width: 225px;
+    text-decoration: none;
+    color: white;
+    font-weight: 100;
+}
+.main__content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.main__content_title {
+    font-size: 32px;
+    padding-top: 112px;
+    font-weight: 550;
+}
+.main__content__description {
+    font-size: 16px;
+    text-align: center;
+    padding-bottom: 100px;
+    font-weight: 100;
+}
+.project-block__content {
+    background-color: #34547A;
+    display: flex;
+    justify-content: center;
+}
+.project__content {
+    display: flex;
+    justify-content: space-around;
+    max-width: 1100px;
+    width: 100%;
+}
+.project-block__content_item {
+    display: flex;
+    padding: 100px 30px 100px 30px;
+    align-items: center;
+    gap: 20px;
+}
+.project-block__content_item p {
+    color: white;
+}
+.main__video {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 100px;
+}
+.footer {
+    background-color: #34547A;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.footer__content {
+    width: 1009px;
+    margin: 0 auto;
+    color: white;
+
+}
+.footer__content h4 {
+    font-size: 21px;
+    font-weight: 550;
+}
+.footer__content p {
+    font-size: 13px;
+    font-weight: 100;
+}
