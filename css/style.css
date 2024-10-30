@@ -114,7 +114,7 @@
 
 @media (max-width: 480px) {
     .wrapper {
-        width: 80%;
+        width: 325px;
         padding: 0 15px;
 
     }
@@ -159,7 +159,7 @@
 
     .project-block__content_item {
         padding: 30px 10px 30px 10px;
-        gap: 5px;
+        gap: 4px;
 
     }
     .project-block__content_item img {
@@ -171,7 +171,7 @@
         font-size: 6px;
     }
     .main__video img {
-        max-width: 80%;
+        max-width: 325px;
         max-height: 175px;
     }
     .footer {
@@ -179,7 +179,7 @@
         padding-bottom: 25px;
     }
     .footer__content {
-        width: 80%;
+        width: 325px;
     }
     .footer__content h4 {
         font-size: 12px;
