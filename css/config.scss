@@ -7,6 +7,11 @@ $background-color: #EEEFF1;
   margin: 0 auto;
 }
 
+@mixin wrapper-size-mobile {
+  width: 325px;
+  padding: 0 15px;
+}
+
 @mixin respond-to($breakpoint) {
   @if $breakpoint == 'mobile' {
     @media (max-width: 480px) { @content; }

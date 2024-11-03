@@ -1,0 +1,200 @@
+@import "config";
+
+@include respond-to('mobile') {
+  .wrapper {
+    max-width: 325px;
+    padding: 0 15px;
+
+
+  }
+  .header__nav {
+    padding-top: 40px;
+      ul {
+        align-items: center;
+        gap: 8px;
+      }
+  }
+
+  .header__nav_item {
+    a {
+      font-size: 11px;
+      display: flex;
+      align-items: center;
+    }
+  }
+
+  .title__main {
+    font-size: 40px;
+    margin-bottom: 40px;
+    display: flex;
+  }
+
+  .title__description {
+    font-size: 12px;
+  }
+
+  .description--modified {
+    margin-bottom: 55px;
+  }
+  .title__button {
+    padding: 10px 20px 10px 20px;
+    width: 125px;
+    font-size: 12px;
+  }
+  .main__content_title {
+    font-size: 28px;
+  }
+  .main__content__description {
+    font-size: 12px;
+  }
+
+  .project-block__content_item {
+    padding: 30px 10px 30px 10px;
+    gap: 4px;
+
+  }
+  .project-block__content_item {
+    img {
+      width: 15px;
+      margin-left: 0;
+      padding-left: 0;
+    }
+  }
+  .project-block__content_item {
+    p {
+      font-size: 6px;
+    }
+  }
+  .main__video {
+    img {
+      max-width: 325px;
+      max-height: 175px;
+    }
+  }
+  .footer {
+    padding-top: 25px;
+    padding-bottom: 25px;
+  }
+  .footer__content {
+    width: 325px;
+  }
+  .footer__content {
+    h4 {
+      font-size: 12px;
+      font-weight: 300;
+      margin: 0;
+      padding-bottom: 5px;
+    }
+  }
+  .footer__content {
+    p {
+      font-size: 8px;
+      font-weight: 100;
+      margin: 0;
+    }
+  }
+}
+
+@include respond-to('landscape') {
+  .wrapper {
+    width: 75%;
+  }
+  .header__nav {
+    padding-top: 70px;
+  }
+  .header__nav {
+    ul {
+      align-items: center;
+      gap: 19px;
+    }
+  }
+  .title__button {
+    padding: 15px 30px 15px 30px;
+    width: 125px;
+    font-size: 12px;
+  }
+  .project-block__content_item {
+    padding: 30px;
+    gap: 20px;
+  }
+  .project-block__content_item {
+    img {
+      width: 35px;
+    }
+  }
+  .project-block__content_item {
+    p {
+      font-size: 12px;
+    }
+  }
+  .main__video {
+    img {
+      max-width: 75%;
+      max-height: 300px;
+    }
+  }
+  .footer__content {
+    width: 75%;
+  }
+  .footer__content {
+    h4 {
+      font-size: 16px;
+      font-weight: 350;
+      margin: 0;
+      padding-bottom: 5px;
+    }
+  }
+  .footer__content {
+    p {
+      font-size: 8px;
+      font-weight: 100;
+      margin: 0;
+    }
+  }
+}
+
+@include respond-to('tablets') {
+  .wrapper {
+    width: 70%;
+    padding: 0 15px;
+  }
+  .header__nav {
+    ul {
+      align-items: center;
+      gap: 20px;
+    }
+  }
+  .project-block__content_item {
+    padding: 50px 30px 50px 30px;
+    gap: 20px;
+  }
+  .main__video {
+    img {
+      max-width: 70%;
+      max-height: 300px;
+    }
+  }
+  .footer__content {
+    width: 70%;
+  }
+}
+
+@include respond-to('sm desktop') {
+  .wrapper {
+    width: 70%;
+    padding: 0 15px;
+  }
+  .project-block__content_item {
+    padding: 70px 30px 70px 30px;
+    gap: 20px;
+  }
+  .main__video {
+    img {
+      max-width: 70%;
+      max-height: 400px;
+    }
+  }
+  .footer__content {
+    width: 70%;
+  }
+}

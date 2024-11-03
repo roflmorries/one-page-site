@@ -97,7 +97,6 @@
   align-items: center;
   gap: 20px;
 }
-
 .project-block__content_item p {
   color: white;
 }
@@ -131,7 +130,7 @@
 
 @media (max-width: 480px) {
   .wrapper {
-    width: 325px;
+    max-width: 325px;
     padding: 0 15px;
   }
   .header__nav {
