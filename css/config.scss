@@ -1,0 +1,23 @@
+$main-color1: #34547A;
+$main-color2: white;
+$background-color: #EEEFF1;
+
+@mixin wrapper-size {
+  width: 1009px;
+  margin: 0 auto;
+}
+
+@mixin respond-to($breakpoint) {
+  @if $breakpoint == 'mobile' {
+    @media (max-width: 480px) { @content; }
+  }
+  @else if $breakpoint == 'landscape' {
+    @media (min-width: 481px) and (max-width: 767px) { @content; }
+  }
+  @else if $breakpoint == 'tablets' {
+    @media (min-width: 768px) and (max-width: 991px) { @content; }
+  }
+  @else if $breakpoint == 'sm desktop' {
+    @media (min-width: 992px) and (max-width: 1199px) { @content; }
+  }
+}
